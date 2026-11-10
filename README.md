@@ -22,17 +22,17 @@ Desde IntelliJ IDEA, abre la carpeta del proyecto y ejecuta `Main.kt`.
 Con Gradle:
 
 ```text
-gradlew run
+gradle run
 ```
 
 La ejecución predeterminada muestra una demostración completa. Para capturar un cliente desde la consola:
 
 ```text
-gradlew run --args="--interactivo"
+gradle run --args="--interactivo"
 ```
 
 ## Pruebas
 
 ```text
-gradlew test
+gradle test
 ```
